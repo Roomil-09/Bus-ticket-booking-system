@@ -1,0 +1,225 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    display: block;
+}
+
+header {
+    background-color: white;
+    color: rgb(5, 72, 101);
+    display: flex;
+    height: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+}
+
+.fixedButton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.roundedFixedBtn {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    font-size: 2em;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(5, 72, 101);
+    text-align: center;
+    cursor: pointer;
+}
+
+#top {
+    font-size: 27px;
+    /* padding: auto; */
+    display: flex;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 450px;
+    padding-right: 450px;
+    font-weight: bolder;
+
+}
+
+.dropbtn {
+    background-color: white;
+    color: rgb(5, 72, 101);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(5, 72, 101);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(5, 72, 101);
+    color: white;
+    transition-duration: 0.25s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 0.25s;
+}
+
+.breadcrumb-container {
+    padding: 10px 0;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumb-item {
+    font-size: 16px;
+}
+
+.breadcrumb-item a {
+    color: rgb(5, 72, 101) !important;
+
+}
+
+.breadcrumb-item.active {
+    color: #007bff;
+}
+
+.breadcrumb-item.active:hover {
+    cursor: pointer;
+}
+
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(5, 72, 101);
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(5, 72, 101);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: rgb(5, 72, 101);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #04548c;
+}
+
+/* Ticket Modal Styles */
+.modal-content {
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+#ticketInfo {
+    font-size: 16px;
+}
+
+#ticketInfo h4 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+#ticketInfo p {
+    margin-bottom: 5px;
+}
+
+/* Close button */
+.close {
+    color: #fff;
+    opacity: 1;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    opacity: 1;
+}
+
+/* Background overlay */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
